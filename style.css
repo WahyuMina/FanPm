@@ -84,6 +84,15 @@ li a:hover::after {
   background-position: center;
   position: relative;
 }
+audio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30%;
+  opacity: 0.8;
+  border-radius: 10px;
+}
 .about {
   width: 100%;
   color: #fff;
